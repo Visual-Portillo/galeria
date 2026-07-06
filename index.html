@@ -6,125 +6,140 @@
 <title>VISUAL PORTILLO</title>
 
 <link rel="stylesheet" href="style.css">
+
+<!-- 🚀 PRELOAD SOLO LAS MÁS IMPORTANTES -->
+<link rel="preload" as="image" href="images/1.jpg">
+<link rel="preload" as="image" href="images/2.jpg">
+<link rel="preload" as="image" href="images/3.jpg">
+<link rel="preload" as="image" href="images/4.jpg">
+<link rel="preload" as="image" href="images/5.jpg">
+<link rel="preload" as="image" href="images/6.jpg">
+<link rel="preload" as="image" href="images/7.jpg">
+<link rel="preload" as="image" href="images/8.jpg">
+
 </head>
 
 <body>
 
-<!-- HEADER -->
 <header class="header">
   <h1>VISUAL PORTILLO</h1>
   <p>Galería</p>
 </header>
 
-<!-- GALERÍA -->
 <section class="gallery">
 
-<!-- 1 - 10 -->
-<div class="photo-card"><img src="images/1.jpg" loading="lazy" decoding="async" alt="Foto 1" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/2.jpg" loading="lazy" decoding="async" alt="Foto 2" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/3.jpg" loading="lazy" decoding="async" alt="Foto 3" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/4.jpg" loading="lazy" decoding="async" alt="Foto 4" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/5.jpg" loading="lazy" decoding="async" alt="Foto 5" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/6.jpg" loading="lazy" decoding="async" alt="Foto 6" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/7.jpg" loading="lazy" decoding="async" alt="Foto 7" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/8.jpg" loading="lazy" decoding="async" alt="Foto 8" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/9.jpg" loading="lazy" decoding="async" alt="Foto 9" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/10.jpg" loading="lazy" decoding="async" alt="Foto 10" onclick="openImage(this)"></div>
+<!-- 🔥 FOTO 1 -->
+<div class="photo-card">
+  <img src="images/1.jpg"
+       loading="eager"
+       fetchpriority="high"
+       decoding="async"
+       width="300" height="300"
+       alt="Foto 1"
+       onclick="openImage(this)">
+</div>
 
-<!-- 11 - 20 -->
-<div class="photo-card"><img src="images/11.jpg" loading="lazy" decoding="async" alt="Foto 11" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/12.jpg" loading="lazy" decoding="async" alt="Foto 12" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/13.jpg" loading="lazy" decoding="async" alt="Foto 13" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/14.jpg" loading="lazy" decoding="async" alt="Foto 14" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/15.jpg" loading="lazy" decoding="async" alt="Foto 15" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/16.jpg" loading="lazy" decoding="async" alt="Foto 16" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/17.jpg" loading="lazy" decoding="async" alt="Foto 17" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/18.jpg" loading="lazy" decoding="async" alt="Foto 18" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/19.jpg" loading="lazy" decoding="async" alt="Foto 19" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/20.jpg" loading="lazy" decoding="async" alt="Foto 20" onclick="openImage(this)"></div>
+<!-- ⚡ 2 - 20 -->
+<div class="photo-card"><img src="images/2.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 2" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/3.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 3" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/4.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 4" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/5.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 5" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/6.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 6" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/7.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 7" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/8.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 8" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/9.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 9" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/10.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 10" onclick="openImage(this)"></div>
 
-<!-- 21 - 30 -->
-<div class="photo-card"><img src="images/21.jpg" loading="lazy" decoding="async" alt="Foto 21" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/22.jpg" loading="lazy" decoding="async" alt="Foto 22" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/23.jpg" loading="lazy" decoding="async" alt="Foto 23" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/24.jpg" loading="lazy" decoding="async" alt="Foto 24" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/25.jpg" loading="lazy" decoding="async" alt="Foto 25" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/26.jpg" loading="lazy" decoding="async" alt="Foto 26" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/27.jpg" loading="lazy" decoding="async" alt="Foto 27" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/28.jpg" loading="lazy" decoding="async" alt="Foto 28" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/29.jpg" loading="lazy" decoding="async" alt="Foto 29" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/30.jpg" loading="lazy" decoding="async" alt="Foto 30" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/11.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 11" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/12.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 12" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/13.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 13" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/14.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 14" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/15.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 15" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/16.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 16" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/17.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 17" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/18.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 18" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/19.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 19" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/20.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 20" onclick="openImage(this)"></div>
 
-<!-- 31 - 40 -->
-<div class="photo-card"><img src="images/31.jpg" loading="lazy" decoding="async" alt="Foto 31" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/32.jpg" loading="lazy" decoding="async" alt="Foto 32" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/33.jpg" loading="lazy" decoding="async" alt="Foto 33" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/34.jpg" loading="lazy" decoding="async" alt="Foto 34" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/35.jpg" loading="lazy" decoding="async" alt="Foto 35" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/36.jpg" loading="lazy" decoding="async" alt="Foto 36" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/37.jpg" loading="lazy" decoding="async" alt="Foto 37" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/38.jpg" loading="lazy" decoding="async" alt="Foto 38" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/39.jpg" loading="lazy" decoding="async" alt="Foto 39" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/40.jpg" loading="lazy" decoding="async" alt="Foto 40" onclick="openImage(this)"></div>
+<!-- ⚡ 21 - 40 -->
+<div class="photo-card"><img src="images/21.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 21"></div>
+<div class="photo-card"><img src="images/22.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 22"></div>
+<div class="photo-card"><img src="images/23.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 23"></div>
+<div class="photo-card"><img src="images/24.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 24"></div>
+<div class="photo-card"><img src="images/25.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 25"></div>
+<div class="photo-card"><img src="images/26.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 26"></div>
+<div class="photo-card"><img src="images/27.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 27"></div>
+<div class="photo-card"><img src="images/28.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 28"></div>
+<div class="photo-card"><img src="images/29.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 29"></div>
+<div class="photo-card"><img src="images/30.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 30"></div>
 
-<!-- 41 - 50 -->
-<div class="photo-card"><img src="images/41.jpg" loading="lazy" decoding="async" alt="Foto 41" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/42.jpg" loading="lazy" decoding="async" alt="Foto 42" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/43.jpg" loading="lazy" decoding="async" alt="Foto 43" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/44.jpg" loading="lazy" decoding="async" alt="Foto 44" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/45.jpg" loading="lazy" decoding="async" alt="Foto 45" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/46.jpg" loading="lazy" decoding="async" alt="Foto 46" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/47.jpg" loading="lazy" decoding="async" alt="Foto 47" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/48.jpg" loading="lazy" decoding="async" alt="Foto 48" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/49.jpg" loading="lazy" decoding="async" alt="Foto 49" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/50.jpg" loading="lazy" decoding="async" alt="Foto 50" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/31.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 31"></div>
+<div class="photo-card"><img src="images/32.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 32"></div>
+<div class="photo-card"><img src="images/33.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 33"></div>
+<div class="photo-card"><img src="images/34.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 34"></div>
+<div class="photo-card"><img src="images/35.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 35"></div>
+<div class="photo-card"><img src="images/36.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 36"></div>
+<div class="photo-card"><img src="images/37.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 37"></div>
+<div class="photo-card"><img src="images/38.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 38"></div>
+<div class="photo-card"><img src="images/39.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 39"></div>
+<div class="photo-card"><img src="images/40.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 40"></div>
 
-<!-- 51 - 60 -->
-<div class="photo-card"><img src="images/51.jpg" loading="lazy" decoding="async" alt="Foto 51" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/52.jpg" loading="lazy" decoding="async" alt="Foto 52" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/53.jpg" loading="lazy" decoding="async" alt="Foto 53" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/54.jpg" loading="lazy" decoding="async" alt="Foto 54" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/55.jpg" loading="lazy" decoding="async" alt="Foto 55" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/56.jpg" loading="lazy" decoding="async" alt="Foto 56" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/57.jpg" loading="lazy" decoding="async" alt="Foto 57" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/58.jpg" loading="lazy" decoding="async" alt="Foto 58" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/59.jpg" loading="lazy" decoding="async" alt="Foto 59" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/60.jpg" loading="lazy" decoding="async" alt="Foto 60" onclick="openImage(this)"></div>
+<!-- ⚡ 41 - 60 -->
+<div class="photo-card"><img src="images/41.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 41"></div>
+<div class="photo-card"><img src="images/42.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 42"></div>
+<div class="photo-card"><img src="images/43.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 43"></div>
+<div class="photo-card"><img src="images/44.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 44"></div>
+<div class="photo-card"><img src="images/45.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 45"></div>
+<div class="photo-card"><img src="images/46.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 46"></div>
+<div class="photo-card"><img src="images/47.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 47"></div>
+<div class="photo-card"><img src="images/48.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 48"></div>
+<div class="photo-card"><img src="images/49.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 49"></div>
+<div class="photo-card"><img src="images/50.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 50"></div>
 
-<!-- 61 - 70 -->
-<div class="photo-card"><img src="images/61.jpg" loading="lazy" decoding="async" alt="Foto 61" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/62.jpg" loading="lazy" decoding="async" alt="Foto 62" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/63.jpg" loading="lazy" decoding="async" alt="Foto 63" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/64.jpg" loading="lazy" decoding="async" alt="Foto 64" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/65.jpg" loading="lazy" decoding="async" alt="Foto 65" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/66.jpg" loading="lazy" decoding="async" alt="Foto 66" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/67.jpg" loading="lazy" decoding="async" alt="Foto 67" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/68.jpg" loading="lazy" decoding="async" alt="Foto 68" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/69.jpg" loading="lazy" decoding="async" alt="Foto 69" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/70.jpg" loading="lazy" decoding="async" alt="Foto 70" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/51.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 51"></div>
+<div class="photo-card"><img src="images/52.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 52"></div>
+<div class="photo-card"><img src="images/53.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 53"></div>
+<div class="photo-card"><img src="images/54.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 54"></div>
+<div class="photo-card"><img src="images/55.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 55"></div>
+<div class="photo-card"><img src="images/56.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 56"></div>
+<div class="photo-card"><img src="images/57.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 57"></div>
+<div class="photo-card"><img src="images/58.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 58"></div>
+<div class="photo-card"><img src="images/59.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 59"></div>
+<div class="photo-card"><img src="images/60.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 60"></div>
 
-<!-- 71 - 80 -->
-<div class="photo-card"><img src="images/71.jpg" loading="lazy" decoding="async" alt="Foto 71" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/72.jpg" loading="lazy" decoding="async" alt="Foto 72" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/73.jpg" loading="lazy" decoding="async" alt="Foto 73" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/74.jpg" loading="lazy" decoding="async" alt="Foto 74" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/75.jpg" loading="lazy" decoding="async" alt="Foto 75" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/76.jpg" loading="lazy" decoding="async" alt="Foto 76" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/77.jpg" loading="lazy" decoding="async" alt="Foto 77" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/78.jpg" loading="lazy" decoding="async" alt="Foto 78" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/79.jpg" loading="lazy" decoding="async" alt="Foto 79" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/80.jpg" loading="lazy" decoding="async" alt="Foto 80" onclick="openImage(this)"></div>
+<!-- ⚡ 61 - 80 -->
+<div class="photo-card"><img src="images/61.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 61"></div>
+<div class="photo-card"><img src="images/62.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 62"></div>
+<div class="photo-card"><img src="images/63.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 63"></div>
+<div class="photo-card"><img src="images/64.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 64"></div>
+<div class="photo-card"><img src="images/65.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 65"></div>
+<div class="photo-card"><img src="images/66.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 66"></div>
+<div class="photo-card"><img src="images/67.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 67"></div>
+<div class="photo-card"><img src="images/68.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 68"></div>
+<div class="photo-card"><img src="images/69.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 69"></div>
+<div class="photo-card"><img src="images/70.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 70"></div>
 
-<!-- 81 - 89 -->
-<div class="photo-card"><img src="images/81.jpg" loading="lazy" decoding="async" alt="Foto 81" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/82.jpg" loading="lazy" decoding="async" alt="Foto 82" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/83.jpg" loading="lazy" decoding="async" alt="Foto 83" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/84.jpg" loading="lazy" decoding="async" alt="Foto 84" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/85.jpg" loading="lazy" decoding="async" alt="Foto 85" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/86.jpg" loading="lazy" decoding="async" alt="Foto 86" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/87.jpg" loading="lazy" decoding="async" alt="Foto 87" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/88.jpg" loading="lazy" decoding="async" alt="Foto 88" onclick="openImage(this)"></div>
-<div class="photo-card"><img src="images/89.jpg" loading="lazy" decoding="async" alt="Foto 89" onclick="openImage(this)"></div>
+<div class="photo-card"><img src="images/71.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 71"></div>
+<div class="photo-card"><img src="images/72.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 72"></div>
+<div class="photo-card"><img src="images/73.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 73"></div>
+<div class="photo-card"><img src="images/74.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 74"></div>
+<div class="photo-card"><img src="images/75.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 75"></div>
+<div class="photo-card"><img src="images/76.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 76"></div>
+<div class="photo-card"><img src="images/77.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 77"></div>
+<div class="photo-card"><img src="images/78.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 78"></div>
+<div class="photo-card"><img src="images/79.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 79"></div>
+<div class="photo-card"><img src="images/80.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 80"></div>
+
+<!-- ⚡ 81 - 89 -->
+<div class="photo-card"><img src="images/81.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 81"></div>
+<div class="photo-card"><img src="images/82.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 82"></div>
+<div class="photo-card"><img src="images/83.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 83"></div>
+<div class="photo-card"><img src="images/84.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 84"></div>
+<div class="photo-card"><img src="images/85.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 85"></div>
+<div class="photo-card"><img src="images/86.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 86"></div>
+<div class="photo-card"><img src="images/87.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 87"></div>
+<div class="photo-card"><img src="images/88.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 88"></div>
+<div class="photo-card"><img src="images/89.jpg" loading="lazy" decoding="async" fetchpriority="low" alt="Foto 89"></div>
 
 </section>
 
