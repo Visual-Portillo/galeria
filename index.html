@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>VISUAL PORTILLO</title>
 
 <link rel="stylesheet" href="style.css">
@@ -11,28 +10,14 @@
 
 <body>
 
-<!-- ================= LOGIN ================= -->
-<div id="login" class="login-screen">
-  <div class="login-box">
-    <h2>VISUAL PORTILLO</h2>
-    <p>Acceso con correo</p>
-
-    <input type="email" id="email" placeholder="correo@ejemplo.com">
-    <button onclick="login()">Ingresar</button>
-
-    <p id="msg"></p>
-  </div>
-</div>
-
-<!-- ================= APP ================= -->
-<div id="app" style="display:none;">
-
+<!-- HEADER -->
 <header class="header">
   <h1>VISUAL PORTILLO</h1>
   <p>Galería</p>
 </header>
 
-<section class="gallery" id="gallery">
+<!-- GALERÍA -->
+<section class="gallery">
 
 <!-- 1 - 10 -->
 <div class="photo-card"><img src="images/1.jpg" loading="lazy" decoding="async" alt="Foto 1" onclick="openImage(this)"></div>
@@ -143,9 +128,6 @@
 
 </section>
 
-</div>
-
 <script src="script.js"></script>
-
 </body>
 </html>
